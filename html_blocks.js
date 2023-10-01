@@ -1127,6 +1127,40 @@ var htmlBlocks =
   "colour": 0,
   "tooltip": "",
   "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+{
+  "type": "insert_js",
+  "message0": "[ Custom JS ] %1",
+  "args0": [
+    {
+      "type": "field_input",
+      "name": "custom js",
+      "text": "js input"
+    }
+  ],
+  "inputsInline": false,
+  "previousStatement": "String",
+  "nextStatement": "String",
+  "colour": 260,
+  "tooltip": "Custom js block that makes coding your site that much easier!",
+  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+}
+ {
+  "type": "insert_html",
+  "message0": "[ Custom HTML ] %1",
+  "args0": [
+    {
+      "type": "field_input",
+      "name": "custom js",
+      "text": "html input"
+    }
+  ],
+  "inputsInline": false,
+  "previousStatement": "String",
+  "nextStatement": "String",
+  "colour": 260,
+  "tooltip": "Custom html block that makes coding your site that much easier!",
+  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+}
 }];
 
 if (Msg && Msg.blocks) {
