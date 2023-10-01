@@ -1143,7 +1143,7 @@ var htmlBlocks =
   "colour": 260,
   "tooltip": "Custom js block that makes coding your site that much easier!",
   "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
-}
+},
  {
   "type": "insert_html",
   "message0": "[ Custom HTML ] %1",
