@@ -1127,7 +1127,8 @@ var htmlBlocks =
   "colour": 0,
   "tooltip": "",
   "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
-}];
+}],
+
 
 if (Msg && Msg.blocks) {
   // Update jsons with translations
