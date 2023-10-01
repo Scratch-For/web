@@ -59,7 +59,7 @@ var htmlBlocks =
       "name": "class"
     }
   ],
- 
+
   "colour": 230,
   "tooltip": "this allows you to style webpages",
   "helpUrl": "https://www.w3schools.com/html/html_classes.asp"
@@ -100,7 +100,7 @@ var htmlBlocks =
   "type": "classer",
   "message0": "Set Class To  %1 with content%2",
   "args0": [
-     
+
     {
       "type": "field_input",
       "name": "text",
@@ -129,7 +129,7 @@ var htmlBlocks =
   {
     "type": "input_statement",
     "name": "content",
- 
+
   }
   ],
   "colour": 0,
@@ -1127,40 +1127,6 @@ var htmlBlocks =
   "colour": 0,
   "tooltip": "",
   "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
-{
-  "type": "insert_js",
-  "message0": "[ Custom JS ] %1",
-  "args0": [
-    {
-      "type": "field_input",
-      "name": "custom js",
-      "text": "js input"
-    }
-  ],
-  "inputsInline": false,
-  "previousStatement": "String",
-  "nextStatement": "String",
-  "colour": 260,
-  "tooltip": "Custom js block that makes coding your site that much easier!",
-  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
-},
- {
-  "type": "insert_html",
-  "message0": "[ Custom HTML ] %1",
-  "args0": [
-    {
-      "type": "field_input",
-      "name": "custom js",
-      "text": "html input"
-    }
-  ],
-  "inputsInline": false,
-  "previousStatement": "String",
-  "nextStatement": "String",
-  "colour": 260,
-  "tooltip": "Custom html block that makes coding your site that much easier!",
-  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
-}
 }];
 
 if (Msg && Msg.blocks) {
